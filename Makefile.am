@@ -26,6 +26,7 @@ EXTRA_DIST = \
 EXTRA_DIST += \
 	cupsfilters/test-pclm-overflow.sh \
 	cupsfilters/test-pwgtopdf-bit-row.sh \
+	cupsfilters/test-pwgtopdf-bad-colorspace.sh \
 	data/makePDFfromPS.sh \
 	data/classified.ps \
 	data/confidential.ps \
@@ -95,6 +96,7 @@ check_SCRIPTS = \
 	cupsfilters/testfilters.sh \
 	cupsfilters/test-pclm-overflow.sh \
 	cupsfilters/test-pwgtopdf-bit-row.sh \
+	cupsfilters/test-pwgtopdf-bad-colorspace.sh \
 	cupsfilters/test-pdftoraster-copy-height.sh \
 	cupsfilters/test-pdftopdf-inherited-mediabox.sh \
 	cupsfilters/test-pdftopdf-no-appearance.sh \
@@ -128,6 +130,7 @@ TESTS = \
 	cupsfilters/testfilters.sh \
 	cupsfilters/test-pclm-overflow.sh \
 	cupsfilters/test-pwgtopdf-bit-row.sh \
+	cupsfilters/test-pwgtopdf-bad-colorspace.sh \
 	cupsfilters/test-pdftoraster-copy-height.sh \
 	cupsfilters/test-pdftopdf-inherited-mediabox.sh \
 	cupsfilters/test-pdftopdf-no-appearance.sh \
@@ -374,6 +377,7 @@ EXTRA_DIST += cupsfilters/test-pdftopdf-inherited-mediabox.c
 EXTRA_DIST += cupsfilters/test-pdftopdf-no-appearance.c
 EXTRA_DIST += cupsfilters/test-pdftopdf-print-scaling-none.c
 EXTRA_DIST += cupsfilters/test-pdftopdf-job-sheets.c
+EXTRA_DIST += cupsfilters/test-pwgtopdf-bad-colorspace.c
 EXTRA_DIST += cupsfilters/test-bannertopdf-unicode.c
 EXTRA_DIST += cupsfilters/test-ghostscript-ocr.c
 # Generated deterministic lorem text for texttopdf tests
